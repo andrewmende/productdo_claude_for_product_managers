@@ -19,8 +19,8 @@ Run the appropriate command:
 
 If Git is **not installed**:
 
-- **Mac:** Tell the student to run `xcode-select --install` in their Terminal and wait for it to finish, then confirm it worked with `git --version`.
-- **Windows:** Tell the student to download and install Git from [https://git-scm.com/download/win](https://git-scm.com/download/win), accepting all default options, then restart their computer and confirm with `git --version`.
+- **Mac:** Try installing it yourself, then confirm it worked with `git --version`.
+- **Windows:** Try installing it yourself, accepting all default options, then restart their computer and confirm with `git --version`.
 
 Do not continue until `git --version` returns a version number.
 
