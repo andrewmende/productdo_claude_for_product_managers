@@ -48,17 +48,42 @@ Confirm the folder `productdo_claude_for_product_managers` now exists inside the
 
 ## Step 4 — Instruct the student to relaunch Claude from the new folder
 
-Tell the student the following (adapt the path for their OS):
+Tell the student the following, choosing the section that matches how they are running Claude:
 
-> "The course files are ready. To start the course, you need to relaunch Claude from the folder we just created:
+---
+
+### If using Claude Desktop (the app)
+
+> "The course files are ready. Now relaunch Claude from the course folder:
 >
-> **Mac:** Open Claude, then go to **File → Open Folder…** and select:
+> **Mac:** In Claude Desktop, go to **File → Open Folder…** and select:
 > `/Users/[your-username]/Documents/productdo_claude_for_product_managers`
 >
-> **Windows:** Open Claude, then go to **File → Open Folder…** and select:
+> **Windows:** In Claude Desktop, go to **File → Open Folder…** and select:
 > `C:\Users\[your-username]\Documents\productdo_claude_for_product_managers`
 >
-> Once you've opened that folder in Claude, you're all set — the course will start automatically."
+> Once you've opened that folder, the course will start automatically."
+
+---
+
+### If using Claude CLI (terminal)
+
+> "The course files are ready. Type `/exit` to close this session, then run the command below to relaunch Claude in the course folder:"
+
+**Mac:**
+```bash
+claude ~/Documents/productdo_claude_for_product_managers
+```
+
+**Windows (Command Prompt):**
+```
+claude %USERPROFILE%\Documents\productdo_claude_for_product_managers
+```
+
+**Windows (PowerShell):**
+```
+claude $env:USERPROFILE\Documents\productdo_claude_for_product_managers
+```
 
 ---
 
