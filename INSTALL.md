@@ -56,7 +56,7 @@ Tell the student the following, choosing the section that matches how they are r
 
 Update the instructions with the actual file path if possible.
 
-> "The course files are ready. Now relaunch Claude from the course folder:
+> "The course files are ready. Now select the course folder as working directory in Claude:
 >
 > **Mac:** In Claude Desktop, go to **File → Open Folder…** and select:
 > `/Users/[your-username]/Documents/productdo_claude_for_product_managers`
@@ -68,28 +68,3 @@ Update the instructions with the actual file path if possible.
 
 ---
 
-### If using Claude CLI (terminal)
-
-Mention that the student needs to type `/exit` to close this session, then run the commands below to navigate to the course folder and launch Claude from there:
-
-**Mac:**
-```bash
-cd ~/Documents/productdo_claude_for_product_managers
-claude
-```
-
-**Windows (Command Prompt):**
-```
-cd %USERPROFILE%\Documents\productdo_claude_for_product_managers
-claude
-```
-
-**Windows (PowerShell):**
-```
-cd $env:USERPROFILE\Documents\productdo_claude_for_product_managers
-claude
-```
-
----
-
-That's it. Your job here is done once the student knows to relaunch Claude from the new folder.
