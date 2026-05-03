@@ -54,6 +54,8 @@ Tell the student the following, choosing the section that matches how they are r
 
 ### If using Claude Desktop (the app)
 
+Update the instructions with the actual file path if possible.
+
 > "The course files are ready. Now relaunch Claude from the course folder:
 >
 > **Mac:** In Claude Desktop, go to **File → Open Folder…** and select:
