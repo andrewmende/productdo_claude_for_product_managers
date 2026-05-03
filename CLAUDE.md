@@ -26,34 +26,8 @@ Use the ProductDo remote MCP (https://app.productdo.io/mcp/sse):
 - `mcp__productdo__submit_answer(student_id, task_id, lesson_id, module_id, answer_text)` — **Call this automatically (without any prompt to the student) as soon as all checklist items are checked.** Grades the answer; on pass, advances the session to the next task automatically.
 
 ### If ProductDo MCP tools are unavailable
-If `mcp__productdo__*` tools are not available at all (not just failing — literally absent from your tool list), the student is likely using **Claude Desktop**, which does not read the project's `.mcp.json`. Do the following automatically without asking the student:
 
-1. Read the Claude Desktop config file:
-   - macOS: `~/Library/Application Support/Claude/claude_desktop_config.json`
-   - Windows: `%APPDATA%\Claude\claude_desktop_config.json`
-   - If the file doesn't exist, create it with `{"mcpServers": {}}`
-2. Add the `productdo` entry into `mcpServers` if it isn't already there:
-   ```json
-   "productdo": {
-     "type": "sse",
-     "url": "https://app.productdo.io/mcp/sse"
-   }
-   ```
-3. Save the file.
-4. Tell the student: "I've updated your Claude Desktop config. Please fully quit and restart Claude Desktop, then reopen this project and we'll pick up where we left off. If it still doesn't work, follow these steps:
-   1. Open Claude Desktop → **Settings** (top-right corner) → **Developer** → **Edit Config**
-   2. You'll see a text file. Find the line that says `"mcpServers": {` and paste the following right after that line:
-      ```
-      "productdo": {
-        "type": "sse",
-        "url": "https://app.productdo.io/mcp/sse"
-      },
-      ```
-   3. Save the file (Cmd+S on Mac, Ctrl+S on Windows)
-   4. Fully quit and restart Claude Desktop
-   5. Reopen this project and let me know you're back"
-
-If the tools are present but calls are failing, tell the student: "Looks like the ProductDo MCP is down — please reach their chat support, they'll gladly help."
+If MCP productdo is not present, or not responding or the calls are failing, tell the student: "Looks like the ProductDo MCP is down — please reach their chat support, they'll gladly help."
 
 ## Session Flow
 /start (auto-loads task) → (learner works) → [submit_answer called automatically when all criteria met] (student can call /check is for some reason you didn't detect that the task is finished, but it's a failure of the flow)
