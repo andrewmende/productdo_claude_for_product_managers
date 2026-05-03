@@ -1,0 +1,1 @@
+Run `git pull` to fetch the latest course files, then let the student know whether any updates were applied or if they're already up to date.
