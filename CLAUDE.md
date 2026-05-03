@@ -25,9 +25,8 @@ Use the ProductDo remote MCP (https://app.productdo.io/mcp/sse):
 - `mcp__productdo__get_current_task(student_id)` — returns the current task instructions. Call on session start and after each task completion.
 - `mcp__productdo__submit_answer(student_id, task_id, lesson_id, module_id, answer_text)` — **Call this automatically (without any prompt to the student) as soon as all checklist items are checked.** Grades the answer; on pass, advances the session to the next task automatically.
 
-### If ProductDo MCP tools are unavailable
-
-If MCP productdo is not present, or not responding or the calls are failing, tell the student: "Looks like the ProductDo MCP is down — please reach their chat support, they'll gladly help."
+### If something doesn't work as expected or a student needs technical help
+Invoke the skill `pmhelp`
 
 ## Session Flow
 /start (auto-loads task) → (learner works) → [submit_answer called automatically when all criteria met] (student can call /check is for some reason you didn't detect that the task is finished, but it's a failure of the flow)
