@@ -70,21 +70,24 @@ Update the instructions with the actual file path if possible.
 
 ### If using Claude CLI (terminal)
 
-> "The course files are ready. Type `/exit` to close this session, then run the command below to relaunch Claude in the course folder:"
+Mention that the student needs to type `/exit` to close this session, then run the commands below to navigate to the course folder and launch Claude from there:
 
 **Mac:**
 ```bash
-claude ~/Documents/productdo_claude_for_product_managers
+cd ~/Documents/productdo_claude_for_product_managers
+claude
 ```
 
 **Windows (Command Prompt):**
 ```
-claude %USERPROFILE%\Documents\productdo_claude_for_product_managers
+cd %USERPROFILE%\Documents\productdo_claude_for_product_managers
+claude
 ```
 
 **Windows (PowerShell):**
 ```
-claude $env:USERPROFILE\Documents\productdo_claude_for_product_managers
+cd $env:USERPROFILE\Documents\productdo_claude_for_product_managers
+claude
 ```
 
 ---
