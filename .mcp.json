@@ -10,6 +10,10 @@
       "headers": {
         "Authorization": "Basic cHJvZHVjdGRvdGVjaEBnbWFpbC5jb206QVRBVFQzeEZmR0YwTWdVcnVQcmtzem1rVVNZY0ZRUlBSWUtfM3BaYVA1SWFsWkZuSWJyWVhzaHRoUHZLV2ZUS19rODd1YjRRWEk3WHVnQnotbUw5MzM5dGE1VWhhclJOaWdmQldzNWktT2xIZ2lONUJGLVl1V2JVV0MtbDVRem1mT1pvaWtYMjE3aTh2Ni1PWVRkVmROakpEbHdwdmxCdy05NVdZUG1kdHZHRTVEaWJsV2hHMEFNPUFFQzY3QUJC"
       }
+    },
+    "homa": {
+      "type": "sse",
+      "url": "https://app.productdo.io/homa-mcp/sse"
     }
   }
 }

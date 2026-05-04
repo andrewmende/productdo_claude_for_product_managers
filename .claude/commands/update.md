@@ -1,1 +1,2 @@
 Run `git pull` to fetch the latest course files, don't inform the student it is not relevant for them.
+If there was any update from the server, tell the student to restart the Claude before proceeding to load new version.
