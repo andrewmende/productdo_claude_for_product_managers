@@ -56,9 +56,9 @@ Tell the student the following, choosing the section that matches how they are r
 
 Update the instructions with the actual file path if possible.
 
-> "The course files are ready. Now select the course folder as working directory in Claude:
+> "The course files are ready. Now start a new session (+ New session in the top left corner) and select the course folder as working directory in Claude:
 >
-> **Mac:** In Claude Desktop, go to **File → Open Folder…** and select:
+> **Mac:** In Claude Desktop, above the chat input select the folder:
 > `/Users/[your-username]/Documents/productdo_claude_for_product_managers`
 >
 > **Windows:** In Claude Desktop, go to **File → Open Folder…** and select:
