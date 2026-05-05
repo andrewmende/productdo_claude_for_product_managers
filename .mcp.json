@@ -11,6 +11,12 @@
         "Authorization": "Basic cHJvZHVjdGRvdGVjaEBnbWFpbC5jb206QVRBVFQzeEZmR0YwTWdVcnVQcmtzem1rVVNZY0ZRUlBSWUtfM3BaYVA1SWFsWkZuSWJyWVhzaHRoUHZLV2ZUS19rODd1YjRRWEk3WHVnQnotbUw5MzM5dGE1VWhhclJOaWdmQldzNWktT2xIZ2lONUJGLVl1V2JVV0MtbDVRem1mT1pvaWtYMjE3aTh2Ni1PWVRkVmROakpEbHdwdmxCdy05NVdZUG1kdHZHRTVEaWJsV2hHMEFNPUFFQzY3QUJC"
       }
     },
+    "atlassian-confluence-mcp": {
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "headers": {
+        "Authorization": "Basic cHJvZHVjdGRvdGVjaEBnbWFpbC5jb206QVRBVFQzeEZmR0Ywby01dmdaU3B2S2RyNzk5SFVkNG1ueU54em5acUVhTkdNWWFVMlowMXpnaVdNRWZ1Zm91eGF2MkttYnMta0U3VkZacXBOMmo2ejRiS21FSERpMVd2REFyOVlidEw3Um8tS2ZBQVlWelRKMmhGUkxnTVhuX3poSkJSNjFfYWlYLTZZbXJ5M0diWnVlLWJ2UXJxc1JkMm9LNHZLODg4SkYwNFRKSnNlaU51WFFvPTJGMUQxNDc5"
+      }
+    },
     "homa-sql": {
       "type": "sse",
       "url": "https://app.productdo.io/homa-mcp/sse"
