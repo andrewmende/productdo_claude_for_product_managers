@@ -4,18 +4,11 @@
       "type": "sse",
       "url": "https://app.productdo.io/mcp/sse"
     },
-    "atlassian-jira-mcp": {
+    "atlassian-jira-confluence-mcp": {
       "type": "http",
       "url": "https://mcp.atlassian.com/v1/mcp",
       "headers": {
-        "Authorization": "Basic cHJvZHVjdGRvdGVjaEBnbWFpbC5jb206QVRBVFQzeEZmR0YwTWdVcnVQcmtzem1rVVNZY0ZRUlBSWUtfM3BaYVA1SWFsWkZuSWJyWVhzaHRoUHZLV2ZUS19rODd1YjRRWEk3WHVnQnotbUw5MzM5dGE1VWhhclJOaWdmQldzNWktT2xIZ2lONUJGLVl1V2JVV0MtbDVRem1mT1pvaWtYMjE3aTh2Ni1PWVRkVmROakpEbHdwdmxCdy05NVdZUG1kdHZHRTVEaWJsV2hHMEFNPUFFQzY3QUJC"
-      }
-    },
-    "atlassian-confluence-mcp": {
-      "type": "http",
-      "url": "https://mcp.atlassian.com/v1/mcp",
-      "headers": {
-        "Authorization": "Basic cHJvZHVjdGRvdGVjaEBnbWFpbC5jb206QVRBVFQzeEZmR0Ywby01dmdaU3B2S2RyNzk5SFVkNG1ueU54em5acUVhTkdNWWFVMlowMXpnaVdNRWZ1Zm91eGF2MkttYnMta0U3VkZacXBOMmo2ejRiS21FSERpMVd2REFyOVlidEw3Um8tS2ZBQVlWelRKMmhGUkxnTVhuX3poSkJSNjFfYWlYLTZZbXJ5M0diWnVlLWJ2UXJxc1JkMm9LNHZLODg4SkYwNFRKSnNlaU51WFFvPTJGMUQxNDc5"
+        "Authorization": "Basic c3R1ZGVudEBwcm9kdWN0ZG8uaW86QVRBVFQzeEZmR0YwYi1udS00Q2RhcFZKbEtPbS1QZTVOQlp1WVNkZHVjcTVYTEJCeW9XV09pbzhQUjdidmlhbUpFd1BtX3B0RlVBaV9vYk5BaFZ5S2h0Tm5vMllONXFmekFzSHMzeXhIYWVHd0lhbFJHSkhIZGVmTWFKVlJ6akxTZTlzUjJYb292ODhXc3RnWXNOcEI1VzVuRXBNeUFlTS1RYnZfQ1Q4dmk2V3NNZnQ5ZWRYVHFFPUU0QzQ0M0E1"
       }
     },
     "homa-sql": {
