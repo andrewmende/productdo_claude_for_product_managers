@@ -4,11 +4,18 @@
       "type": "sse",
       "url": "https://app.productdo.io/mcp/sse"
     },
-    "atlassian-jira-confluence-mcp": {
+    "atlassian-jira": {
       "type": "http",
       "url": "https://mcp.atlassian.com/v1/mcp",
       "headers": {
-        "Authorization": "Basic c3R1ZGVudEBwcm9kdWN0ZG8uaW86QVRBVFQzeEZmR0YwYi1udS00Q2RhcFZKbEtPbS1QZTVOQlp1WVNkZHVjcTVYTEJCeW9XV09pbzhQUjdidmlhbUpFd1BtX3B0RlVBaV9vYk5BaFZ5S2h0Tm5vMllONXFmekFzSHMzeXhIYWVHd0lhbFJHSkhIZGVmTWFKVlJ6akxTZTlzUjJYb292ODhXc3RnWXNOcEI1VzVuRXBNeUFlTS1RYnZfQ1Q4dmk2V3NNZnQ5ZWRYVHFFPUU0QzQ0M0E1"
+        "Authorization": "Basic cHJvZHVjdGRvdGVjaEBnbWFpbC5jb206QVRBVFQzeEZmR0Ywc3lLZ2IwTlZ2WGlNcHd1WE9PeFlKR1huQU4xWVNKc19RSmtONkQ3c3BjODRMMnpVeVpvaTBORGIwSEJBVmR1NExkRWNDTUNuY19vQzRRNVVJZFczZ2pTSWV0RmZncDJTRUxYYXlEUmZtZW43NEloVjh5cjNNQTBxNlJ3U01QVWRLbnUwOHE3LU9XN3B2VmN4VU9vbHRXY2VCZXJqcWJHZTJFekJGODh6aXZRPTczN0EwOUVC"
+      }
+    },
+    "atlassian-confluence": {
+      "type": "http",
+      "url": "https://mcp.atlassian.com/v1/mcp",
+      "headers": {
+        "Authorization": "Basic cHJvZHVjdGRvdGVjaEBnbWFpbC5jb206QVRBVFQzeEZmR0YwaFlsclRhZ3N4RmthelVabVVWZzcwWUJQdGlVblZVb05wSnpOUm9BVVNTZE90dmZNTWw4SGZSZEdHRWFMdXhKQ0ZHX2VrYzA0ZEt2MVhmaVU5dlU0U0lLbnlKR1FoX2hrTFI0eDgxYzJDc1phQnpMUzczWllEeHljQ1ZsVGYxYWg5RklCOEZLWjRFUl9CMmpPbU1NbkpJSkRzNnhJRE5SdWROUk1GTVJKcTRZPTY2MTA1NTlC"
       }
     },
     "homa-sql": {
