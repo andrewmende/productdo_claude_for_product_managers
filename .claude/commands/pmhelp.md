@@ -4,7 +4,7 @@ Follow this diagnostic flow:
 
 ---
 
-## Step 1 — Identify the problem
+## Step 0 — Identify the problem
 
 Ask the student (briefly, in 1–2 questions max) what they observe:
 - Does something look broken, or does it just seem like the task isn't progressing?
@@ -12,7 +12,13 @@ Ask the student (briefly, in 1–2 questions max) what they observe:
 
 ---
 
-## Step 2 — Triage by scenario
+## Step 1 - Most probable resolution
+- If new updates available, try to invoke the /update skill - maybe it will fix the problem.
+- Regardless, ask student to quit Claude (fully, not just by closing the window with a cross) and open it again. In 90% of cases this will just fix the problem.
+
+---
+
+## Step 2 — Triage by more complex scenario
 
 ### Scenario A: "I think I completed the task but nothing happened / I'm stuck"
 → Tell the student: "Let me run a quick check." Then immediately invoke the /check skill.
@@ -43,9 +49,7 @@ Signs: submit_answer returned a pass, but the next get_current_task call still r
 
 ---
 
-If nothing above works, try to invoke the /update skill - maybe it will fix the problem.
-
-## Step 3 — Escalation to ProductDo support
+## Step 4 — Escalation to ProductDo support
 
 If none of the above resolved the issue, compose a support message for the student to copy and send to ProductDo chat support (on their website). Use this format:
 
