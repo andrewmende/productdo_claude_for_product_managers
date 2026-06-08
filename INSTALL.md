@@ -61,8 +61,8 @@ Update the instructions with the actual file path if possible.
 > **Mac:** In Claude Desktop, above the chat input select the folder:
 > `/Users/[your-username]/Documents/productdo_claude_for_product_managers`
 >
-> **Windows:** In Claude Desktop, go to **File → Open Folder…** and select:
-> `C:\Users\[your-username]\Documents\productdo_claude_for_product_managers`
+> **Windows:** In Claude Desktop, above the chat input select the folder where the repo was cloned:
+> Most probably something like: `C:\Users\[your-username]\Documents\productdo_claude_for_product_managers`
 >
 > Once you've opened that folder, the course will start automatically."
 

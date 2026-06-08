@@ -20,6 +20,9 @@ Ask the student (briefly, in 1–2 questions max) what they observe:
 
 ## Step 2 — Triage by more complex scenario
 
+### First things to check
+1. Make sure that the working directory of the Claude Code is the folder with course files, the one where CLAUDE.md for this course lives, most probably it is called 'productdo_claude_for_product_managers'. It is by far the most common reason of problems. Check that commands such as /start are loaded and the .mcp.json file with 'productdo' and 'homa-sql' are loaded in this session. If not, ask the student to start a new session and set the primary working folder of the session to 'productdo_claude_for_product_managers'.
+
 ### Scenario A: "I think I completed the task but nothing happened / I'm stuck"
 → Tell the student: "Let me run a quick check." Then immediately invoke the /check skill.
 
